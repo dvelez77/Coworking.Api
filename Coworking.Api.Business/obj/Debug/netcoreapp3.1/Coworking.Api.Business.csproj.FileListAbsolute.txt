@@ -1,0 +1,7 @@
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\bin\Debug\netcoreapp3.1\Coworking.Api.Business.deps.json
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\bin\Debug\netcoreapp3.1\Coworking.Api.Business.dll
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\bin\Debug\netcoreapp3.1\Coworking.Api.Business.pdb
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\obj\Debug\netcoreapp3.1\Coworking.Api.Business.AssemblyInfoInputs.cache
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\obj\Debug\netcoreapp3.1\Coworking.Api.Business.AssemblyInfo.cs
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\obj\Debug\netcoreapp3.1\Coworking.Api.Business.dll
+C:\Users\David\source\repos\Coworking.api\Coworking.Api.Business\obj\Debug\netcoreapp3.1\Coworking.Api.Business.pdb
