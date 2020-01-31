@@ -1,12 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Mappers\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coworking.Api.Application.Contracts\Coworking.Api.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Coworking.Api.Business\Coworking.Api.Business.csproj" />
+    <ProjectReference Include="..\Coworking.Api.DataAccess.Contracts\Coworking.Api.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\Coworking.Api.DataAccess\Coworking.Api.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

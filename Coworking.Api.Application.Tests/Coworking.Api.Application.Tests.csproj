@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -11,6 +11,12 @@
     <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coworking.Api.Application.Contracts\Coworking.Api.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Coworking.Api.Application\Coworking.Api.Application.csproj" />
+    <ProjectReference Include="..\Coworking.Api.DataAccess.Contracts\Coworking.Api.DataAccess.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\source\\repos\\Coworking.api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {}
+    "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\source\\repos\\Coworking.api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {
+    "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\Coworking.Api.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\source\\repos\\Coworking.api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
-        "projectName": "Coworking.Api.DataAccess",
-        "projectPath": "C:\\Users\\David\\source\\repos\\Coworking.api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\Coworking.Api.Business.csproj",
+        "projectName": "Coworking.Api.Business",
+        "projectPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\Coworking.Api.Business.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\source\\repos\\Coworking.api\\Coworking.Api.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -22,14 +22,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -40,7 +40,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,12 +59,140 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj",
+        "projectName": "Coworking.Api.DataAccess.Contracts",
+        "projectPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "projectName": "Coworking.Api.DataAccess",
+        "projectPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\Coworking.Api.Business.csproj": {
+                "projectPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.Business\\Coworking.Api.Business.csproj"
+              },
+              "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj": {
+                "projectPath": "C:\\Users\\David\\source\\repos\\dvelez77\\Coworking.Api\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
