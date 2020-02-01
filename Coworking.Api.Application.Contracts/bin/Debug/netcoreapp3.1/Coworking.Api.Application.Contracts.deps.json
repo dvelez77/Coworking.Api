@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Coworking.Api.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "Coworking.Api.Business": "1.0.0"
+        },
         "runtime": {
           "Coworking.Api.Application.Contracts.dll": {}
+        }
+      },
+      "Coworking.Api.Business/1.0.0": {
+        "runtime": {
+          "Coworking.Api.Business.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Coworking.Api.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coworking.Api.Business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
