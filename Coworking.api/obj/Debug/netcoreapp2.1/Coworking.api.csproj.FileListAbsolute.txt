@@ -32,3 +32,16 @@ C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\obj\Debug\netco
 C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\obj\Debug\netcoreapp2.1\Coworking.api.RazorTargetAssemblyInfo.cache
 C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\obj\Debug\netcoreapp2.1\Coworking.api.dll
 C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\obj\Debug\netcoreapp2.1\Coworking.api.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Application.Contracts.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Application.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Business.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.CrossCutting.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.DataAccess.Contracts.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.DataAccess.dll
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.CrossCutting.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.DataAccess.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Application.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Application.Contracts.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.Business.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\bin\Debug\netcoreapp2.1\Coworking.Api.DataAccess.Contracts.pdb
+C:\Users\David\source\repos\dvelez77\Coworking.Api\Coworking.api\obj\Debug\netcoreapp2.1\Coworking.api.csproj.CopyComplete
